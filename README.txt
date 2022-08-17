@@ -22,4 +22,12 @@ How to run the code:
 3. Run the main class - TradeTransmissionProjectApplication as "Java Application".
 4. Run the test class - TradeTransmissionProjectApplicationTests as "JUnit Test".
 
+Output:
+------
+The program output log can be seen in the repo itself as Output_log.log
+
+Tests:
+-----
+All the test cases passed
+
 
