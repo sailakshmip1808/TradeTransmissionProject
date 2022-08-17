@@ -1,0 +1,36 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.2)
+
+2022-08-17 14:39:21.042  INFO 28072 --- [           main] .t.p.TradeTransmissionProjectApplication : Starting TradeTransmissionProjectApplication using Java 1.8.0_271 on SGDT002 with PID 28072 (D:\sts-ws\TradeTransmissionProject\target\classes started by SGDT002 in D:\sts-ws\TradeTransmissionProject)
+2022-08-17 14:39:21.045  INFO 28072 --- [           main] .t.p.TradeTransmissionProjectApplication : The following 1 profile is active: "dev"
+2022-08-17 14:39:21.499  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        : Trade T1 is added to the Store
+2022-08-17 14:39:21.500  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        : Trade T2 is added to the Store
+2022-08-17 14:39:21.500  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        : Trade T3 is added to the Store
+2022-08-17 14:39:21.500  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        : Trade T4 is added to the Store
+2022-08-17 14:39:21.500  INFO 28072 --- [           main] c.t.proj.transmission.TradeTransmission  : 
+
+
+2022-08-17 14:39:21.500  INFO 28072 --- [           main] c.t.proj.transmission.TradeTransmission  : Displaying all the trades in the store
+2022-08-17 14:39:21.500  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        : Trade Id  Version Counter-PartyId Book-Id Maturity Date Created Date Expired
+2022-08-17 14:39:21.500  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        :    T4       5         CP-3         B2      26/09/2022    17/08/2022      N
+2022-08-17 14:39:21.501  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        :    T1       1         CP-1         B1      19/09/2022    17/08/2022      N
+2022-08-17 14:39:21.501  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        :    T2       2         CP-2         B1      08/05/2024    17/08/2022      N
+2022-08-17 14:39:21.501  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        :    T3       3         CP-3         B2      09/02/2023    17/08/2022      N
+
+2022-08-17 14:39:21.504 ERROR 28072 --- [           main] com.ttp.proj.utility.TradeUtility        : Given maturityDate Wed May 20 00:00:00 IST 2015 is lower than Wed Aug 17 14:39:21 IST 2022
+2022-08-17 14:39:21.504  WARN 28072 --- [           main] com.ttp.proj.utility.TradeUtility        : Unable to add T5 in the store as maturity date is lower than current date
+2022-08-17 14:39:21.506  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        : Expired Trades List is T4
+
+2022-08-17 14:39:21.506  INFO 28072 --- [           main] c.t.proj.transmission.TradeTransmission  : Displaying all the trades in the store after modification
+2022-08-17 14:39:21.506  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        : Trade Id  Version Counter-PartyId Book-Id Maturity Date Created Date Expired
+2022-08-17 14:39:21.506  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        :    T4       5         CP-3         B2      20/05/2014    17/08/2022      Y
+2022-08-17 14:39:21.507  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        :    T1       1         CP-1         B1      19/09/2022    17/08/2022      N
+2022-08-17 14:39:21.507  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        :    T2       2         CP-1         B1      20/05/2021    14/03/2015      N
+2022-08-17 14:39:21.507  INFO 28072 --- [           main] com.ttp.proj.utility.TradeUtility        :    T3       3         CP-3         B2      09/02/2023    17/08/2022      N
+2022-08-17 14:39:21.592  INFO 28072 --- [           main] .t.p.TradeTransmissionProjectApplication : Started TradeTransmissionProjectApplication in 1.011 seconds (JVM running for 1.494)
